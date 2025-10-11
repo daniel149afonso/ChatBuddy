@@ -33,17 +33,15 @@ You can install the required libraries using:
 
 Project Structure
 
-    ChatBuddy/
-
-          ├── main.py             # Main Python script with voice assistant logic
-
-          ├── .project            # Eclipse project metadata
-
-          ├── .pydevproject       # Eclipse Python settings
-
-          ├── .settings/          # Eclipse workspace settings
-
-          └── README.md           # This file
+    ChatBuddy/          
+            │
+            ├─ main.py                 # Entry point of the program
+            ├─ config.py               # Environment variables, constants, API setup
+            ├─ languages.py            # Language definitions and selection
+            ├─ tts.py                  # Text-to-speech engine setup and speak() function
+            ├─ subjects.py             # Subject list and selection function
+            ├─ stt.py                  # Speech-to-text (voice recognition) functions
+            ├─ chat_logic.py           # Chat/OpenAI API interactions
 
 Notes & Recommendations
 
