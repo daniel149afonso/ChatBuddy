@@ -34,15 +34,15 @@ Project Structure
 
 ChatBuddy/
 
-├── main.py             # Main Python script with voice assistant logic
+  ├── main.py             # Main Python script with voice assistant logic
 
-├── .project            # Eclipse project metadata
+  ├── .project            # Eclipse project metadata
 
-├── .pydevproject       # Eclipse Python settings
+  ├── .pydevproject       # Eclipse Python settings
 
-├── .settings/          # Eclipse workspace settings
+  ├── .settings/          # Eclipse workspace settings
 
-└── README.md           # This file
+  └── README.md           # This file
 
 Notes & Recommendations
 
