@@ -4,7 +4,7 @@ ChatBuddy is an AI-powered voice assistant designed to help young learners (ages
 
 # ChatBuddy – AI Voice Assistant
 
-ChatBuddy is a Python-based AI voice assistant designed to help young people (12–16 years old) practice asking clear, specific questions and receive friendly, age-appropriate coaching. The assistant uses **speech recognition**, **text-to-speech**, and an **OpenAI-compatible API** (via Infomaniak) to interact with the user.
+ChatBuddy is a Python-based AI voice assistant designed to help young people (12–16 years old) practice asking clear, specific questions and receive friendly, age-appropriate coaching on a subject choosed by the user. The assistant uses **speech recognition**, **text-to-speech**, and an **OpenAI-compatible API** (via Infomaniak) to interact with the user.
 
 ---
 
@@ -15,6 +15,7 @@ ChatBuddy is a Python-based AI voice assistant designed to help young people (12
 - **Age-Appropriate Answers**: Responses are friendly, safe, and suitable for teens.  
 - **Fun Extras**: Answers may include jokes or interesting facts related to your question.  
 - **Stop Commands**: Easily exit the session by saying “exit”, “quit”, “bye”, or similar.
+- **Ethical and safety considerations**: Never provide medical, legal, or harmful advice. 
 
 ---
 
