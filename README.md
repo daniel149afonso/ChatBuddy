@@ -33,10 +33,15 @@ You can install the required libraries using:
 Project Structure
 
 ChatBuddy/
+
 ├── main.py             # Main Python script with voice assistant logic
+
 ├── .project            # Eclipse project metadata
+
 ├── .pydevproject       # Eclipse Python settings
+
 ├── .settings/          # Eclipse workspace settings
+
 └── README.md           # This file
 
 Notes & Recommendations
