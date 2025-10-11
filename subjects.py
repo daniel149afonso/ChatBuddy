@@ -1,0 +1,22 @@
+from tts import speak
+
+SUBJECTS = [
+    "Science", "Mathematics", "History", "Geography",
+    "Art", "Music", "Technology", "Sports", "Literature"
+]
+
+def choose_subject():
+    print("\n📚 Available subjects:")
+    for i, subj in enumerate(SUBJECTS, 1):
+        print(f"{i}. {subj}")
+
+    speak("Please choose a subject from the list.")
+
+    while True:
+        choice = input("Choose a subject by number (1–9): ").strip()
+        if choice.isdigit() and 1 <= int(choice) <= len(SUBJECTS):
+            selected = SUBJECTS[int(choice) - 1]
+            speak(f"You chose {selected}. Great choice!")
+            return selected
+        else:
+            speak("Invalid choice. Try again.")
