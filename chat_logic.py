@@ -9,7 +9,7 @@ def get_coaching_and_answer(prompt: str, subject: str, language_label: str):
         f"Respond entirely in {language_label}. "
         "Your goal is to teach them how to communicate well with AI. "
         "1. Analyse their prompt for clarity, specificity, and context, scoring it out of 100. "
-        "2. Provide one short, friendly, actionable coaching tip. "
+        "2. Provide one short, friendly, actionable, useful coaching tip. "
         "3. Provide a funny, helpful, age-appropriate answer about the chosen subject. "
         "4. Always include a small fun fact or joke related to the topic. "
         "5. Never provide medical, legal, or harmful advice. "
