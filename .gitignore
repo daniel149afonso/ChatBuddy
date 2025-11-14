@@ -1,0 +1,15 @@
+README_map.md
+# Environnements virtuels
+venv/
+.env
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Fichiers IDE
+.vscode/
+.idea/
+
+# Autres
+.DS_Store
