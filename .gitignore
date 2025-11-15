@@ -1,15 +1,23 @@
 README_map.md
-# Environnements virtuels
+
+# TTS Piper
+piper
+
+# Virtual environment
 venv/
 .env
 
-# Fichiers temporaires Python
-__pycache__/
+# Temporary files Python
+__pycache__
 *.pyc
 
-# Fichiers IDE
+# Files IDE
 .vscode/
 .idea/
+
+# Audio
+*.mp3
+*.wav
 
 # Autres
 .DS_Store
