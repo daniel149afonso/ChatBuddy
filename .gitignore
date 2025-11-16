@@ -21,3 +21,4 @@ __pycache__
 
 # Autres
 .DS_Store
+tmp.txt
